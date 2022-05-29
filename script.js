@@ -15,17 +15,29 @@ const statement_container = {
 }
 
 statement_one.addEventListener("click", () => {
-    msg_display.innerHTML = "Clicked";
+    msg_display.innerHTML = statement_container.one;
+    if(msg_display) {
+        msg_display.classList.toggle("toggle-off");
+    }
 })
 
 statement_two.addEventListener("click", () => {
-    console.log("Clicked!!!");
+    msg_display.innerHTML = statement_container.two;
+    if(msg_display) {
+        msg_display.classList.toggle("toggle-off");
+    }
 })
 
 statement_three.addEventListener("click", () => {
-    console.log("Clicked!!!");
+    msg_display.innerHTML = statement_container.three;
+    if(msg_display) {
+        msg_display.classList.toggle("toggle-off");
+    }
 })
 
 statement_four.addEventListener("click", () => {
-    console.log("Clicked!!!");
+    msg_display.innerHTML = statement_container.four;
+    if(msg_display) {
+        msg_display.classList.toggle("toggle-off");
+    }
 })
