@@ -6,4 +6,26 @@ const statement_three = document.getElementById("statement-three");
 const statement_four = document.getElementById("statement-four");
 
 
-console.log(msg_display, statement_holder, statement_one, statement_two, statement_three, statement_four);
+// an object of selections and their response
+const statement_container = {
+        one: "You have made a great choice!!!",
+        two: "Seeking knowledge is a honorable path.",
+        three: "Great power comes with greate responsibility. ",
+        four: "Be dutiful to them and show them love."
+}
+
+statement_one.addEventListener("click", () => {
+    msg_display.innerHTML = "Clicked";
+})
+
+statement_two.addEventListener("click", () => {
+    console.log("Clicked!!!");
+})
+
+statement_three.addEventListener("click", () => {
+    console.log("Clicked!!!");
+})
+
+statement_four.addEventListener("click", () => {
+    console.log("Clicked!!!");
+})
