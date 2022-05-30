@@ -1,9 +1,11 @@
 const msg_display = document.getElementById("msg-display");
 const statement_holder = document.getElementById("statement-holder");
+const statements_box = document.getElementById("statements-box");
 const statement_one = document.getElementById("statement-one");
 const statement_two = document.getElementById("statement-two");
 const statement_three = document.getElementById("statement-three");
 const statement_four = document.getElementById("statement-four");
+
 
 // message that appears when the page loads
 window.addEventListener('load', (event) => {
@@ -48,4 +50,3 @@ statement_four.addEventListener("click", () => {
 })
 
 
-// Drag and drop effects

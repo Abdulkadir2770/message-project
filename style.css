@@ -107,4 +107,6 @@ ul li {
     text-align: center;
 }
 
-
+.stm-item.over {
+    border: 3px dotted #666;
+  }
